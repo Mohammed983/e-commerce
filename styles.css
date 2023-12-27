@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  header{
+    background-color: #f39292;
+    border-bottom: 1px solid #e7e7e7;
+    padding: 10px ;
+    position: relative;
+    top: 0%;
+    z-index: 9;
+    width: 100%;
+    height: 160px;
+   
+  }
+  
+  #Home {
+    background-color: #d7bcbc;
+
+  
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .logo {
+    justify-content: space-between;
+    width: 100px; /* Example size, adjust as needed */
+  }
+  
+  .company-info {
+    margin: 0;
+    margin-left: 33%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+ .contant{
+  text-align: right;
+  margin-left: 25%;
+  
+  
+  
+ }
+  
+  .gender-categories a,
+  .product-categories a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+
+  .product-image {
+    width: 700px;
+    height: 500px;
+    object-fit: cover; /* This ensures the image covers the area without distorting aspect ratio */
+    
+  }
+  .product-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  #homeB{
+    width: 40px;
+    height: 40px;
+    justify-items: center;
+    align-items: center;
+    border-radius: 100% ;
+    display: flex;
+    position: fixed;
+    bottom:40px;
+    left:0;
+
+}
+#top{
+  margin-left: 95%;
+  display: flex;
+  position: fixed;
+  bottom:40px;
+   
+}
